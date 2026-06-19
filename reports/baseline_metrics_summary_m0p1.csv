@@ -1,0 +1,2 @@
+config,success_rate_last25(%),avg_reward_last25,avg_length_last25,total_violations,train_speed(eps/sec)
+penalty=-0.1,97.39999999999999,7.785199999999998,17.948,508,6501.21443307598

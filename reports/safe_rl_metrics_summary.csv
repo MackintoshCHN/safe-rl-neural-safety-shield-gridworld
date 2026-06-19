@@ -1,0 +1,4 @@
+config,success_rate_last25(%),avg_reward_last25,total_violations,avg_interventions_per_ep
+theta=-1 (no shield),99.2,8.9828,198,0.0
+theta=0 (lenient),100.0,9.1548,0,0.668
+theta=2 (strict),6.4,-18.083200000000012,0,182.013
