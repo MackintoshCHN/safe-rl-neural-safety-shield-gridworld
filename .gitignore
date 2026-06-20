@@ -216,3 +216,51 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+```gitignore
+# ==============================
+# Project-specific generated files
+# ==============================
+
+# Generated datasets
+data/
+*.pkl
+
+# Trained models and checkpoints
+models/
+*.pt
+*.pth
+*.ckpt
+
+# Q-learning tables
+qtables/
+
+# Generated plots not selected for README
+plots/
+
+# Full training logs / experiment logs
+logs/
+runs/
+wandb/
+mlruns/
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Large NumPy / tensor outputs
+*.npy
+*.npz
+
+# Colab / notebook temporary files
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+```
